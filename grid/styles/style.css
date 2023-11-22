@@ -110,6 +110,10 @@ main .images{
     height: 100%;
     width: 100%;
 }
+main img{
+    width: 100%;
+    height: 80%;
+}
 
 footer{
     background-color: rgb(36, 69, 90);
