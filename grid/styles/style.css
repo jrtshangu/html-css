@@ -111,8 +111,13 @@ main .images{
     width: 100%;
 }
 main img{
-    width: 100%;
+    width: 90%;
     height: 50%;
+}
+main img:hover{
+    transition: all 0.02s ease-in-out;
+    height: 100%;
+    width: 100%;
 }
 main .short-message{
     display: grid;
@@ -132,6 +137,9 @@ main .short-message{
     background-color: gray;
     padding: 2%;
     
+}
+.short-message #developper img{
+    height: 100%;
 }
 footer{
     background-color: rgb(36, 69, 90);
