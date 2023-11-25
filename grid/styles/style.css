@@ -124,6 +124,9 @@ main .short-message{
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2,1fr);
     grid-gap: 1%;
+    background-color: rgb(47, 65, 71);
+    padding: 1%;
+    color: white;
 }
 .short-message #message{
     background-color: gray;
