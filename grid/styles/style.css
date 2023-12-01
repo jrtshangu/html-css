@@ -101,7 +101,9 @@ main .video{
     align-items: center;
     height: 100%;
     width: 100%;
+  
 }
+main 
 
 main .images{
     display: grid;
@@ -110,7 +112,7 @@ main .images{
     height: 80%;
     width: 100%;
 }
-main img{
+main .images img{
     width: 90%;
     height: 50%;
 }
@@ -125,13 +127,12 @@ main .short-message{
     grid-gap: 1%;
 }
 .short-message #developper{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(2,1fr);
-    grid-gap: 1%;
     background-color: rgb(47, 65, 71);
     padding: 1%;
     color: white;
+}
+.short-message #developper h1{
+    float: left;
 }
 .short-message #message{
     background-color: gray;
@@ -139,11 +140,12 @@ main .short-message{
     
 }
 .short-message #developper img{
-    height: 100%;
+   
 }
+
 footer{
     background-color: rgb(36, 69, 90);
-    margin-top: 0%;
+    margin-top: 100%;
     color: white;
     padding: 2%;
 }
